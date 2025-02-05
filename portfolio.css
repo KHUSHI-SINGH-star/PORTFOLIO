@@ -1,62 +1,63 @@
-*{
+* {
     padding: 0%;
-    border:0dvh;
+    border: 0dvh;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-  
-body{
-    background-color:rgb(35, 36, 35) ;
-    color:rgb(58, 240, 3);
+
+body {
+    background-color: rgb(35, 36, 35);
+    color: #f7cfd8;
     opacity: 0;
-    animation: animation 4s ease-in-out 0.5s  forwards;
-    height:1000px;
+    animation: animation 4s ease-in-out 0.5s forwards;
+    height: 1000px;
 }
 
-@keyframes animation{
-    0%{
+@keyframes animation {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
- 
-.navbar{
+
+.navbar {
     height: 50px;
     width: 100%;
     background-color: #0f0f0f;
-    color: rgb(58, 240, 3);
+    color: #f4f8d3;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-top: -7px;
-    transition: border ease 0.2 ;
+    transition: border ease 0.2;
 
 }
 
-.navbar:hover{
-    border:5px solid rgb(20, 20, 20); 
+.navbar:hover {
+    border: 5px solid rgb(20, 20, 20);
 }
 
-#skill_sec{
-    transition:all ease-in 0.1s ;
+#skill_sec {
+    transition: all ease-in 0.1s;
     cursor: pointer;
 }
 
-.nav_hover:hover{
-    border:3px solid white ;
+.nav_hover:hover {
+    border: 3px solid white;
     margin: 50px;
-    padding: 7px 7px 7px 7px  ; 
+    padding: 7px 7px 7px 7px;
 }
 
-#project_sec{
-    transition:all ease-in 0.1s ;
+.nav_hover {
+    transition: all ease-in 0.1s;
     cursor: pointer;
 }
 
-#contact_sec{
+/* #contact_sec{
     transition:all ease-in 0.1s ;
     cursor: pointer;
 }
@@ -69,228 +70,234 @@ body{
 #home{
     transition:all ease-in 0.1s ;
     cursor: pointer;
-}
+} */
 
-.portfolio{
-    transition:all ease-in 0.1s ;
-    margin:180px;
+.portfolio {
+    transition: all ease-in 0.1s;
+    margin: 180px;
     cursor: pointer;
 }
 
-.portfolio:hover{
-    border:5px solid white ;
-    margin:230px;
+.portfolio:hover {
+    border: 5px solid white;
+    margin: 230px;
     padding: 4px 4px 4px 4px;
 }
 
-header{
+header {
     margin-top: 160px;
     margin-left: 30px;
 }
- 
-.name_heading{
-text-shadow: 3px 3px 3px rgb(58, 240,3);
+
+.name_heading {
+    text-shadow: 3px 3px 3px #f4f8d3;
 }
 
-.my_img{
+.my_img {
     height: 400px;
-    width:400px;
+    width: 400px;
     border-radius: 50%;
     margin-left: 55%;
     margin-top: -239px;
-    animation:my_img-animation  4s ease-in-out 0s infinite forwards; 
+    animation: my_img-animation 4s ease-in-out 0s infinite forwards;
 }
-@keyframes my_img-animation{
-    0%{
-        border-left:8px solid  rgb(58, 240, 3); 
-        border-top: 8px ;
+
+@keyframes my_img-animation {
+    0% {
+        border-left: 8px solid rgb(58, 240, 3);
+        border-top: 8px;
         border-right: 8px solid;
-        border-bottom: 8px ;
+        border-bottom: 8px;
     }
 
-    25%{
-        border-left:8px ; 
-        border-top: 8px solid  rgb(58, 240, 3);
-        border-right: 8px ;
+    25% {
+        border-left: 8px;
+        border-top: 8px solid rgb(58, 240, 3);
+        border-right: 8px;
         border-bottom: 8px solid;
     }
-    50%{
-        border-left:8px  solid; 
-        border-top: 8px ;
-        border-right: 8px solid  rgb(58, 240, 3);
-        border-bottom: 8px ;
+
+    50% {
+        border-left: 8px solid;
+        border-top: 8px;
+        border-right: 8px solid rgb(58, 240, 3);
+        border-bottom: 8px;
     }
-    100%{
-        border-left:8px ; 
+
+    100% {
+        border-left: 8px;
         border-top: 8px solid;
-        border-right:8px ;
-        border-bottom: 8px solid  rgb(58, 240, 3);
+        border-right: 8px;
+        border-bottom: 8px solid rgb(58, 240, 3);
     }
 }
 
-#ig{
+#ig {
     margin-right: 20px;
     margin-left: 30px;
-    border: 2px solid  rgb(58, 240, 3);
+    border: 2px solid rgb(58, 240, 3);
     border-radius: 50%;
     padding: 7px 7px 7px 7px;
 }
 
-#li{
+#li {
     margin-right: 20px;
-    border: 2px solid  rgb(58, 240, 3);
+    border: 2px solid rgb(58, 240, 3);
     border-radius: 50%;
     padding: 7px 7px 7px 7px;
 }
 
-#gmail{
-    border: 2px solid  rgb(58, 240, 3);    
+#gmail {
+    border: 2px solid rgb(58, 240, 3);
     border-radius: 50%;
     padding: 7px 7px 7px 7px;
 }
 
-#ig:hover{
+#ig:hover {
     background-color: rgb(224, 236, 221);
     color: #0f0f0f;
     padding: 10px 10px 10px 10px;
-    cursor:pointe;
+    cursor: pointe;
 }
 
-#li:hover{
+#li:hover {
     background-color: rgb(224, 236, 221);
     color: #0f0f0f;
     padding: 10px 10px 10px 10px;
-    cursor:pointe;
+    cursor: pointe;
 }
 
-#gmail:hover{
+#gmail:hover {
     background-color: rgb(224, 236, 221);
     color: #0f0f0f;
     padding: 10px 10px 10px 10px;
-    cursor:pointe;
+    cursor: pointe;
 }
 
-#github{
-    border: 2px solid  rgb(58, 240, 3);    
+#github {
+    border: 2px solid rgb(58, 240, 3);
     border-radius: 50%;
     padding: 7px 7px 7px 7px;
     margin-left: 20px;
 }
 
-#github:hover{
+#github:hover {
     background-color: rgb(224, 236, 221);
     color: #0f0f0f;
     padding: 10px 10px 10px 10px;
-    cursor:pointe;
+    cursor: pointe;
 }
 
-h3{
+h3 {
     opacity: 0;
-    animation:word-animation  10s ease-out 0s infinite forwards;
+    animation: word-animation 10s ease-out 0s infinite forwards;
 }
 
-@keyframes word-animation{
-   0%{
-    pacity: 0;
-    transform: translate(0px);
-    transform: scale(0);
+@keyframes word-animation {
+    0% {
+        pacity: 0;
+        transform: translate(0px);
+        transform: scale(0);
 
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(20px);
+        transform: scale(1);
+    }
 }
-   100%{opacity: 1;
-    transform: translate(20px);
-transform: scale(1);}
-} 
 
 
-#more_about_me{
+#more_about_me {
     margin-left: 60px;
     height: 30px;
-    border: 3px solid rgb(58, 240, 3); 
+    border: 3px solid rgb(58, 240, 3);
     border-radius: 20%;
-    background-color:rgb(35, 36, 35);
+    background-color: rgb(35, 36, 35);
     color: white;
 }
 
-#more_about_me:hover{
-background-color:rgb(58, 240, 3) ;
-border:4px solid white;
-color: #0f0f0f;
-padding: 6px 6px 6px 6px;
+#more_about_me:hover {
+    background-color: rgb(58, 240, 3);
+    border: 4px solid white;
+    color: #0f0f0f;
+    padding: 6px 6px 6px 6px;
 }
 
-main{
+main {
     margin-top: 300px;
 }
 
-#my-img{
+#my-img {
     margin-left: 30px;
 }
 
-.about_me-heading{
+.about_me-heading {
     margin-left: 55%;
-    color:rgb(58, 240, 3) ;
+    color: rgb(58, 240, 3);
     font-style: italic;
     text-shadow: 3px 3px 3px rgb(58, 240, 3);
 }
 
-.para{
+.para {
     margin-left: 40%;
     color: whitesmoke;
     margin-right: 10%;
     font-size: larger;
 }
 
-.skill_section{
+.skill_section {
     margin-top: 30%;
 
 }
 
-.project_section{
+.project_section {
     margin-top: 55%;
 }
 
- footer{
+footer {
     margin-top: 90%;
-} 
+}
 
-aside{
-     margin-top: -89px;
+aside {
+    margin-top: -89px;
     margin-left: 10%;
     margin-right: 61%;
     font-size: larger;
 }
 
-form{
+form {
     margin-left: 60%;
     margin-bottom: 120px;
 }
 
-.form_section{
-    height:30px;
+.form_section {
+    height: 30px;
     width: 80%;
     margin-bottom: 5px;
     margin-top: 5px;
-    background-color:#0f0f0f; 
-    color:rgb(58, 240,3) ;
-    border:2px solid rgb(58, 240, 3);
-    box-shadow: inset 6px 6px 6px rgb(58, 240,3);
+    background-color: #0f0f0f;
+    color: rgb(58, 240, 3);
+    border: 2px solid rgb(58, 240, 3);
+    box-shadow: inset 6px 6px 6px rgb(58, 240, 3);
 }
 
-#submit-button{
-    box-shadow:  0px  0px 3px 3px rgb(58, 240,3);
+#submit-button {
+    box-shadow: 0px 0px 3px 3px rgb(58, 240, 3);
     margin-left: 30%;
     margin-top: 6px;
     height: 25px;
     width: 20%;
-    background:#0f0f0f;
-    color:rgb(58, 240,3) ;
+    background: #0f0f0f;
+    color: rgb(58, 240, 3);
 }
 
-.contect_heading{
-   margin-left: 20%;
-} 
+.contect_heading {
+    margin-left: 20%;
+}
 
-.footer_section{
+.footer_section {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -300,16 +307,16 @@ form{
     height: 80px;
 }
 
-.last{
+.last {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(73, 68, 68);
-    height:50px;
+    height: 50px;
 }
 
-.up-button{
+.up-button {
     margin-left: 94%;
     position: sticky;
     top: 500px;
