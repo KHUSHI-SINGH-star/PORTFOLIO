@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: rgb(35, 36, 35);
-    color: #f7cfd8;
+    background-color: #f7cfd8;
+    color: #a6f1e0;
     opacity: 0;
     animation: animation 4s ease-in-out 0.5s forwards;
     height: 1000px;
@@ -26,8 +26,8 @@ body {
 .navbar {
     height: 50px;
     width: 100%;
-    background-color: #0f0f0f;
-    color: #f4f8d3;
+    background-color: #f4f8d3;
+    color: #73c7c7;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -41,11 +41,6 @@ body {
     border: 5px solid rgb(20, 20, 20);
 }
 
-#skill_sec {
-    transition: all ease-in 0.1s;
-    cursor: pointer;
-}
-
 .nav_hover:hover {
     border: 3px solid white;
     margin: 50px;
@@ -56,21 +51,6 @@ body {
     transition: all ease-in 0.1s;
     cursor: pointer;
 }
-
-/* #contact_sec{
-    transition:all ease-in 0.1s ;
-    cursor: pointer;
-}
-
-#about_me{
-    transition:all ease-in 0.1s ;
-    cursor: pointer;
-}
-
-#home{
-    transition:all ease-in 0.1s ;
-    cursor: pointer;
-} */
 
 .portfolio {
     transition: all ease-in 0.1s;
@@ -104,7 +84,7 @@ header {
 
 @keyframes my_img-animation {
     0% {
-        border-left: 8px solid rgb(58, 240, 3);
+        border-left: 8px solid #f4f8d3;
         border-top: 8px;
         border-right: 8px solid;
         border-bottom: 8px;
@@ -112,7 +92,7 @@ header {
 
     25% {
         border-left: 8px;
-        border-top: 8px solid rgb(58, 240, 3);
+        border-top: 8px solid #f4f8d3;
         border-right: 8px;
         border-bottom: 8px solid;
     }
@@ -120,7 +100,7 @@ header {
     50% {
         border-left: 8px solid;
         border-top: 8px;
-        border-right: 8px solid rgb(58, 240, 3);
+        border-right: 8px solid #f4f8d3;
         border-bottom: 8px;
     }
 
@@ -128,61 +108,61 @@ header {
         border-left: 8px;
         border-top: 8px solid;
         border-right: 8px;
-        border-bottom: 8px solid rgb(58, 240, 3);
+        border-bottom: 8px solid #f4f8d3;
     }
 }
 
 #ig {
     margin-right: 20px;
     margin-left: 30px;
-    border: 2px solid rgb(58, 240, 3);
+    border: 2px solid #73c7c7;
     border-radius: 50%;
     padding: 7px 7px 7px 7px;
 }
 
 #li {
     margin-right: 20px;
-    border: 2px solid rgb(58, 240, 3);
+    border: 2px solid #73c7c7;
     border-radius: 50%;
     padding: 7px 7px 7px 7px;
 }
 
 #gmail {
-    border: 2px solid rgb(58, 240, 3);
+    border: 2px solid #73c7c7;
     border-radius: 50%;
     padding: 7px 7px 7px 7px;
 }
 
 #ig:hover {
-    background-color: rgb(224, 236, 221);
+    background-color:#f4f8d3;
     color: #0f0f0f;
     padding: 10px 10px 10px 10px;
     cursor: pointe;
 }
 
 #li:hover {
-    background-color: rgb(224, 236, 221);
+    background-color: #f4f8d3;
     color: #0f0f0f;
     padding: 10px 10px 10px 10px;
     cursor: pointe;
 }
 
 #gmail:hover {
-    background-color: rgb(224, 236, 221);
+    background-color: #f4f8d3;
     color: #0f0f0f;
     padding: 10px 10px 10px 10px;
     cursor: pointe;
 }
 
 #github {
-    border: 2px solid rgb(58, 240, 3);
+    border: 2px solid #a6f1e0;
     border-radius: 50%;
     padding: 7px 7px 7px 7px;
     margin-left: 20px;
 }
 
 #github:hover {
-    background-color: rgb(224, 236, 221);
+    background-color:#f4f8d3;
     color: #0f0f0f;
     padding: 10px 10px 10px 10px;
     cursor: pointe;
