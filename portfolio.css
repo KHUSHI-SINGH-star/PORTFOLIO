@@ -38,11 +38,11 @@ body {
 }
 
 .navbar:hover {
-    border: 5px solid rgb(20, 20, 20);
+    border: 5px solid #f4f8d3 ;
 }
 
 .nav_hover:hover {
-    border: 3px solid white;
+    border: 3px solid #A6f1e0;
     margin: 50px;
     padding: 7px 7px 7px 7px;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 .portfolio:hover {
-    border: 5px solid white;
+    border: 5px solid #A6f1e0;
     margin: 230px;
     padding: 4px 4px 4px 4px;
 }
@@ -86,7 +86,7 @@ header {
     0% {
         border-left: 8px solid #f4f8d3;
         border-top: 8px;
-        border-right: 8px solid;
+        border-right: 8px solid #f4f8d3;
         border-bottom: 8px;
     }
 
@@ -94,11 +94,11 @@ header {
         border-left: 8px;
         border-top: 8px solid #f4f8d3;
         border-right: 8px;
-        border-bottom: 8px solid;
+        border-bottom: 8px solid #f4f8d3;
     }
 
     50% {
-        border-left: 8px solid;
+        border-left: 8px solid #f4f8d3;
         border-top: 8px;
         border-right: 8px solid #f4f8d3;
         border-bottom: 8px;
@@ -106,7 +106,7 @@ header {
 
     100% {
         border-left: 8px;
-        border-top: 8px solid;
+        border-top: 8px solid #f4f8d3;
         border-right: 8px;
         border-bottom: 8px solid #f4f8d3;
     }
@@ -135,21 +135,21 @@ header {
 
 #ig:hover {
     background-color:#f4f8d3;
-    color: #0f0f0f;
+    color: #73c7c7;
     padding: 10px 10px 10px 10px;
     cursor: pointe;
 }
 
 #li:hover {
     background-color: #f4f8d3;
-    color: #0f0f0f;
+    color:  #73c7c7;
     padding: 10px 10px 10px 10px;
     cursor: pointe;
 }
 
 #gmail:hover {
     background-color: #f4f8d3;
-    color: #0f0f0f;
+    color:  #73c7c7;
     padding: 10px 10px 10px 10px;
     cursor: pointe;
 }
@@ -163,7 +163,7 @@ header {
 
 #github:hover {
     background-color:#f4f8d3;
-    color: #0f0f0f;
+    color: #73c7c7;
     padding: 10px 10px 10px 10px;
     cursor: pointe;
 }
@@ -183,7 +183,7 @@ h3 {
 
     100% {
         opacity: 1;
-        transform: translate(20px);
+        transform: translate(10px);
         transform: scale(1);
     }
 }
@@ -192,16 +192,16 @@ h3 {
 #more_about_me {
     margin-left: 60px;
     height: 30px;
-    border: 3px solid rgb(58, 240, 3);
+    border: 3px solid #f4f8d3;
     border-radius: 20%;
-    background-color: rgb(35, 36, 35);
-    color: white;
+    background-color:   #73c7c7;
+    color: #a6f1e0;
 }
 
 #more_about_me:hover {
-    background-color: rgb(58, 240, 3);
-    border: 4px solid white;
-    color: #0f0f0f;
+    background-color:  #f7cfd8;
+    border: 4px solid  #a6f1e0;
+    color:  #73c7c7;
     padding: 6px 6px 6px 6px;
 }
 
@@ -215,14 +215,14 @@ main {
 
 .about_me-heading {
     margin-left: 55%;
-    color: rgb(58, 240, 3);
+    color: #f4f8d3;
     font-style: italic;
-    text-shadow: 3px 3px 3px rgb(58, 240, 3);
+    text-shadow: 3px 3px 3px #f4f8d3;
 }
 
 .para {
     margin-left: 40%;
-    color: whitesmoke;
+    color: #A6f1e0;
     margin-right: 10%;
     font-size: larger;
 }
@@ -258,19 +258,19 @@ form {
     margin-bottom: 5px;
     margin-top: 5px;
     background-color: #0f0f0f;
-    color: rgb(58, 240, 3);
-    border: 2px solid rgb(58, 240, 3);
-    box-shadow: inset 6px 6px 6px rgb(58, 240, 3);
+    color: #f4f8d3;
+    border: 2px solid #f4f8d3;
+    box-shadow: inset 6px 6px 6px #f4f8d3;
 }
 
 #submit-button {
-    box-shadow: 0px 0px 3px 3px rgb(58, 240, 3);
+    box-shadow: 0px 0px 3px 3px #f4f8d3;
     margin-left: 30%;
     margin-top: 6px;
     height: 25px;
     width: 20%;
-    background: #0f0f0f;
-    color: rgb(58, 240, 3);
+    background: #73c7c7;
+    color: #f4f8d3;
 }
 
 .contect_heading {
@@ -283,7 +283,7 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: black;
+    background-color: #f4f8d3;
     height: 80px;
 }
 
@@ -292,7 +292,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(73, 68, 68);
+    background-color:#73c7c7;
     height: 50px;
 }
 
@@ -302,10 +302,10 @@ form {
     top: 500px;
     height: 35px;
     width: 30px;
-    border: 2px solid rgb(104, 255, 3);
+    border: 2px solid #f4f8d3;
     border-radius: 20%;
     cursor: pointer;
-    background: rgb(73, 68, 68);
+    background: #A6f1e0;
 }
 
 
