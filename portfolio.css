@@ -224,7 +224,7 @@ main {
     margin-left: 40%;
     color: azure;
      margin-right: 10%;
-    font-size: 1.23rem;
+     font-size: 1.23rem;
 }
 
 .skill_section {
@@ -246,6 +246,7 @@ main {
     color: #A6f1e0;
     display: flex;
     justify-content:space-around;
+    flex-direction: row;
     
 }
 
