@@ -246,8 +246,9 @@ main {
     background-color: #f4f8d3;
     color: #A6f1e0;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     flex-direction: row;
+    align-items: center;
     
 }
 
@@ -256,6 +257,7 @@ hr{
     background-color: #f4f8d3;
     height: 3px;
 }
+
 
 .project_section {
     margin-top: 55%;

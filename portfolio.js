@@ -6,7 +6,7 @@ const phoneNo=document.querySelector(".phoneNO_section");
 const massage=document.querySelector(".massage_section");
 // const ig=document.querySelector("#ig")
 // const ln=document.querySelector("#li")
-// const github=document.querySelector("#github")
+ const github=document.querySelector("#github")
 // const gmail=document.querySelector("#gmail");
 const tap_button=document.querySelector(".last");
 
@@ -35,9 +35,9 @@ window.scrollTo({top:1,behaviour:"instat"})
 //     // document.location=""
 // })
 
-// github.addEventListener("click",()=>{
-//     // document.location=""
-// })
+github.addEventListener("click",()=>{
+      document.location="https://github.com/KHUSHI-SINGH-star";
+})
 
 tap_button.addEventListener("click",()=>{
     window.scrollTo({top:1,behavior:"smooth"})
