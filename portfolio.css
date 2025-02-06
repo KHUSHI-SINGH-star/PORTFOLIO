@@ -7,7 +7,7 @@
 
 body {
     background-color: #f7cfd8;
-    color: #25fdcb;
+    color:#0c7c7c;
     opacity: 0;
     animation: animation 4s ease-in-out 0.5s forwards;
     height: 1000px;
@@ -224,12 +224,19 @@ main {
     margin-left: 40%;
     color: #A6f1e0;
     margin-right: 10%;
-    font-size: larger;
+    font-size: 1.23rem;
 }
 
 .skill_section {
     margin-top: 30%;
+    margin-bottom: 50%;
 
+}
+
+.skill_section_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project_section {
