@@ -236,11 +236,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .skills{
-    height: 30px;
-    width: 30px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     background-color: #f4f8d3;
     color: #A6f1e0;
