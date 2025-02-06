@@ -7,7 +7,7 @@
 
 body {
     background-color: #f7cfd8;
-    color:#0c7c7c;
+    color:#2ce2e2;
     opacity: 0;
     animation: animation 4s ease-in-out 0.5s forwards;
     height: 1000px;
@@ -217,14 +217,14 @@ main {
     margin-left: 55%;
     color: #f4f8d3;
     font-style: italic;
-    text-shadow: 3px 3px 3px #f4f8d3;
+    text-shadow: 3px 3px 3px #A6f1e0;
 }
 
 .para {
     margin-left: 40%;
-    color: #A6f1e0;
-    margin-right: 10%;
-    font-size: 1.23rem;
+    color: azure;
+     margin-right: 10%;
+    font-size: 2.23rem;
 }
 
 .skill_section {
@@ -234,9 +234,7 @@ main {
 }
 
 .skill_section_heading{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ margin-left: 48%;
 }
 
 .project_section {
