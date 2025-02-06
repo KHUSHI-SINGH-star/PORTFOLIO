@@ -251,6 +251,12 @@ main {
     
 }
 
+hr{
+    width: 100%;
+    background-color: #f4f8d3;
+    height: 3px;
+}
+
 .project_section {
     margin-top: 55%;
 }
