@@ -224,17 +224,29 @@ main {
     margin-left: 40%;
     color: azure;
      margin-right: 10%;
-    font-size: 2.23rem;
+    font-size: 1.23rem;
 }
 
 .skill_section {
-    margin-top: 30%;
-    margin-bottom: 50%;
-
+   margin-top: 30%;
+   margin-bottom: 50%;
 }
 
 .skill_section_heading{
- margin-left: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #f4f8d3;
+    color: #A6f1e0;
+    display: flex;
+    justify-content:space-around;
+    
 }
 
 .project_section {
@@ -262,7 +274,7 @@ form {
     width: 80%;
     margin-bottom: 5px;
     margin-top: 5px;
-    background-color: #0f0f0f;
+    background-color:#A6f1e0;
     color: #f4f8d3;
     border: 2px solid #f4f8d3;
     box-shadow: inset 6px 6px 6px #f4f8d3;
