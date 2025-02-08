@@ -10,15 +10,17 @@ const massage=document.querySelector(".massage_section");
  const gmail=document.querySelector("#gmail");
 const tap_button=document.querySelector(".last");
 const more_about_me=document.querySelector("#more_about_me");
-
+const home=document.querySelector("#home");
+const about_me=document.querySelector("#about_me");
+const skill_sec=document.querySelector("#skill_sec");
+const project_sec=document.querySelector("#project_sec");
+const contact_sec=document.querySelector("#contact_sec");
 
 // const name1= Name.value;
 // const email1=email.value;
 // const phoneNo1=phoneNo.value;
 // const massage1=massage.value;
 
-
-// console.log(massage1);
 
 last_button.addEventListener("click",()=>{
 window.scrollTo({top:1,behaviour:"instat"})
@@ -42,4 +44,24 @@ tap_button.addEventListener("click",()=>{
 
 more_about_me.addEventListener("click",()=>{
     window.scrollTo({top:800,behavior:"smooth"})
+})
+
+about_me.addEventListener("click",()=>{
+    window.scrollTo({top:800,behavior:"smooth"})
+})
+
+home.addEventListener("click",()=>{
+    window.scrollTo({top:100,behavior:"smooth"})
+})
+
+skill_sec.addEventListener("click",()=>{
+    window.scrollTo({top:1200,behavior:"smooth"})
+})
+
+project_sec.addEventListener("click",()=>{
+    window.scrollTo({top:1500,behavior:"smooth"})
+})
+
+contact_sec.addEventListener("click",()=>{
+    window.scrollTo({top:1800,behavior:"smooth"})
 })
