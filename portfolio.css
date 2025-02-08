@@ -269,15 +269,15 @@ hr{
     border-radius: 50%;
     margin-left: 100px;
     margin-right: 100px;
-    border:6px solid black;
+    border:6px solid #f4f8d3;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .frontend_project:hover{
-    background-color: snow;
+    background-color: #f7cfd8;
     padding: 5px 5px 5px 5px;
-    border:10px solid black;
+    border:10px solid #A6f1e0;
 }
 
 .project_heading{
@@ -392,7 +392,7 @@ form {
 
   .navbar{
    width: 100%;
-   height: 30px;
+   height: 50px;
    width: 100%;
    align-items: center;
    margin-top: -3px;
@@ -433,5 +433,21 @@ form {
  
 .para{
     margin-left:20% ;
+}
+.about_me-heading {
+    margin-left: 35%;
+}
+
+form {
+    margin-left: 20%;
+}
+
+header{
+    margin-top: 40px;
+}
+#more_about_me {
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 } 

@@ -41,5 +41,5 @@ tap_button.addEventListener("click",()=>{
 })
 
 more_about_me.addEventListener("click",()=>{
-    window.scrollTo({top:700,behavior:"smooth"})
+    window.scrollTo({top:800,behavior:"smooth"})
 })
