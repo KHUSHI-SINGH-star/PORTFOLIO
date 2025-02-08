@@ -55,13 +55,13 @@ home.addEventListener("click",()=>{
 })
 
 skill_sec.addEventListener("click",()=>{
-    window.scrollTo({top:1200,behavior:"smooth"})
+    window.scrollTo({top:1800,behavior:"smooth"})
 })
 
 project_sec.addEventListener("click",()=>{
-    window.scrollTo({top:1500,behavior:"smooth"})
+    window.scrollTo({top:2800,behavior:"smooth"})
 })
 
 contact_sec.addEventListener("click",()=>{
-    window.scrollTo({top:1800,behavior:"smooth"})
+    window.scrollTo({top:3800,behavior:"smooth"})
 })

@@ -310,6 +310,10 @@ hr{
     flex-wrap: wrap;
 }
 
+h4{
+margin-left: 100px;
+}
+
 footer {
     margin-top: 90%;
 }
@@ -318,6 +322,7 @@ aside {
     margin-left: 10%;
     margin-right: 61%;
     font-size: larger;
+    margin-bottom: -190px;
 }
 
 form {
