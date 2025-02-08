@@ -263,6 +263,53 @@ hr{
     margin-top: 55%;
 }
 
+.frontend_project{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border:6px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.frontend_project:hover{
+    background-color: snow;
+    padding: 5px 5px 5px 5px;
+    border:10px solid black;
+}
+
+.project_heading{
+    margin-left: 45%;
+    margin-bottom: 30px;
+    animation: h4animation 2.5s ease-in-out infinite normal ;
+}
+
+@keyframes h4animation {
+    0%{
+      transform: translateX(-60px);  
+    }
+    25%{
+        transform: translateX(-30px);  
+    }
+    50%{
+        transform: translateX(10px);  
+    }
+    75%{
+        transform: translateX(30px);  
+    }
+    100%{
+        transform: translateX(0px);  
+    }
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 footer {
     margin-top: 90%;
 }
