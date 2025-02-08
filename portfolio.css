@@ -10,7 +10,6 @@ body {
     color:#2ce2e2;
     opacity: 0;
     animation: animation 4s ease-in-out 0.5s forwards;
-    height: 1000px;
 }
 
 @keyframes animation {
@@ -318,7 +317,7 @@ footer {
     margin-top: 90%;
 }
 
-aside {
+.aside {
     margin-left: 10%;
     margin-right: 61%;
     font-size: larger;
