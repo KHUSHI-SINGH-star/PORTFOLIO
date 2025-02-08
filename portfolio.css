@@ -315,7 +315,6 @@ footer {
 }
 
 aside {
-    margin-top: -89px;
     margin-left: 10%;
     margin-right: 61%;
     font-size: larger;
@@ -428,7 +427,7 @@ form {
 }
 
 #submit-button{
-    width: 30px;
+    width: 50px;
 }
  
 .para{
@@ -449,5 +448,9 @@ header{
     margin-left: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+aside{
+    margin-right: auto;
 }
 } 
