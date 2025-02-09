@@ -18,7 +18,7 @@ const contact_sec=document.querySelector("#contact_sec");
 const dino_game=document.querySelector("#dino_game");
 const rock_paper_game=document.querySelector("#rock_paper_game");
 const tic_tak_toe_game=document.querySelector("#tic_tak_toe_game");
-const amazon_clone=document.querySelector("#amazon_clone");
+const amazon_clone=document.querySelector("#amason_clone");
 const todoList=document.querySelector("#todoList");
 
 
