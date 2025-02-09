@@ -457,4 +457,30 @@ header{
 aside{
     margin-right: auto;
 }
+    .my_img{
+    height: 200px;
+    width: 200px;
+}
+
+.aside{
+    margin-bottom: auto;
+}
+
+.nav_hover:hover {
+    border: 3px solid #A6f1e0;
+}
+
+.nav_hover {
+    transition: all ease-in 0.1s;
+    cursor: pointer;
+}
+
+.portfolio {
+    transition: all ease-in 0.1s;
+    cursor: pointer;
+}
+
+.portfolio:hover {
+    border: 5px solid #A6f1e0;
+}
 } 
