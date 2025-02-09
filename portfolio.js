@@ -23,19 +23,19 @@ const todoList=document.querySelector("#todoList");
 
 
 dino_game.addEventListener("click",()=>{
-    document.location="https://khushi-singh-star.github.io/DRAGON_GAME/"
+    document.location="https://khushi-singh-star.github.io/DRAGON_GAME/";
 })
 
 rock_paper_game.addEventListener("click",()=>{
-    document.location="https://khushi-singh-star.github.io/STONE_PAPER_SECISSORS_GAME/"
+    document.location="https://khushi-singh-star.github.io/STONE_PAPER_SECISSORS_GAME/";
 })
 
 tic_tak_toe_game.addEventListener("click",()=>{
-    document.location="https://khushi-singh-star.github.io/TIC_TAK_TOE_GAME/"
+    document.location="https://khushi-singh-star.github.io/TIC_TAK_TOE_GAME/";
 })
 
 amazon_clone.addEventListener("click",()=>{
-    document.location="https://khushi-singh-star.github.io/amason-clone/"
+    document.location="https://khushi-singh-star.github.io/amason-clone/";
 })
 
 todoList.addEventListener("click",()=>{
