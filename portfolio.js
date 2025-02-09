@@ -15,6 +15,33 @@ const about_me=document.querySelector("#about_me");
 const skill_sec=document.querySelector("#skill_sec");
 const project_sec=document.querySelector("#project_sec");
 const contact_sec=document.querySelector("#contact_sec");
+const dino_game=document.querySelector("#dino_game");
+const rock_paper_game=document.querySelector("#rock_paper_game");
+const tic_tak_toe_game=document.querySelector("#tic_tak_toe_game");
+const amazon_clone=document.querySelector("#amazon_clone");
+const todoList=document.querySelector("#todoList");
+
+
+dino_game.addEventListener("click",()=>{
+    document.location="https://khushi-singh-star.github.io/DRAGON_GAME/"
+})
+
+rock_paper_game.addEventListener("click",()=>{
+    document.location="https://khushi-singh-star.github.io/STONE_PAPER_SECISSORS_GAME/"
+})
+
+tic_tak_toe_game.addEventListener("click",()=>{
+    document.location="https://khushi-singh-star.github.io/TIC_TAK_TOE_GAME/"
+})
+
+amazon_clone.addEventListener("click",()=>{
+    document.location="https://khushi-singh-star.github.io/amason-clone/"
+})
+
+todoList.addEventListener("click",()=>{
+    document.location="https://khushi-singh-star.github.io/TODO_LIST/"
+})
+
 
 // const name1= Name.value;
 // const email1=email.value;
