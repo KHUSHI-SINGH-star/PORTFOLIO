@@ -36,6 +36,8 @@ This project showcases my development skills, completed projects, and ways to co
    git clone https://github.com/yourusername/your-portfolio.git
 2.Open index.html in your browser or run with Live Server in VS Code.
 
+---
+
 
 📁 Folder Structure
 bash
@@ -48,23 +50,31 @@ portfolio/
 └── /assets
     └── /icons, /thankyou.html, etc.
 
+---
+
 🙋‍♀️ About Me
 I'm Khushi Singh, a front-end web developer passionate about building beautiful and functional websites.
+
+---
 
 💡 Future Plans
 Add dark mode toggle
 
 Add filtering system in project section
 
-Deploy live using GitHub Pages or Netlify
-
 Add animation on scroll for more sections
+
+---
+
 
 📬 Contact
 Have questions or want to connect?
 
 📧 Email: khushisingh977374@gmail.com
+
 🌐 Website: YourPortfolioLinkHere
+
+---
 
 ⭐ Star this repo if you like it, and feel free to fork!
 
