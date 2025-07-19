@@ -2,13 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PORTFOLIO WEBSITE</title>
-  <link rel="stylesheet" href="portfolio.css" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khushi Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
@@ -16,98 +14,100 @@
     <source src="prace_music.mp3" type="audio/mp3" />
   </audio>
 
-  <div class="container">
-    <nav class="navbar">
-      <div class="portfolio"><i class="fa-solid fa-user-tie"></i>PORTFOLIO</div>
-      <div id="home" class="nav_hover"><i class="fa-solid fa-house"></i>HOME</div>
-      <div id="about_me" class="nav_hover"><i class="fa-solid fa-address-card"></i>ABOUT ME</div>
-      <div id="skill_sec" class="nav_hover"><i class="fa-regular fa-keyboard"></i>SKILLS</div>
-      <div id="project_sec" class="nav_hover"><i class="fa-solid fa-laptop-code"></i>PROJECTS</div>
-      <div id="contact_sec" class="nav_hover"><i class="fa-solid fa-square-phone"></i>CONTACT</div>
-    </nav>
+  <nav class="navbar">
+    <div class="portfolio"><i class="fa-solid fa-user-tie"></i> PORTFOLIO</div>
+    <div id="home" class="nav_hover">HOME</div>
+    <div id="about_me" class="nav_hover">ABOUT ME</div>
+    <div id="skill_sec" class="nav_hover">SKILLS</div>
+    <div id="project_sec" class="nav_hover">PROJECTS</div>
+    <div id="contact_sec" class="nav_hover">CONTACT</div>
+  </nav>
 
-    <header>
-      <h5>Hi everyone, I am</h5> 
+  <header id="header">
+    <div class="header-content">
+      <h5>Hi everyone, I am</h5>
       <h1 class="name_heading">KHUSHI SINGH</h1>
-      <h3>A Web Developer with Deep Knowledge of JavaScript</h3> 
+      <h3>A Web Developer | OpenCV Enthusiast | Engineering Student</h3>
 
-      <i class="fa-brands fa-instagram" id="ig"></i>
-      <i class="fa-brands fa-linkedin-in" id="li"></i>
-      <i class="fa-solid fa-envelope" id="gmail"></i>
-      <i class="fa-brands fa-github" id="github"></i>
-      <button id="more_about_me">MORE ABOUT ME</button>
-      <img src="my_img.jpg" alt="Portrait of Khushi Singh" class="my_img" />
-    </header>
-
-    <button class="up-button"><i class="fa-solid fa-up-long"></i></button>
-
-    <main>
-      <h1 class="about_me-heading">MORE ABOUT ME</h1>
-      <p class="para">
-        Hey there! I'm an engineering student with a passion for web development...
-      </p>
-      <img src="my_img.jpg" alt="Another view of Khushi Singh" class="my_img" id="my-img" />
-
-      <div class="skill_section">
-        <hr /><h1 class="skill_section_heading">EXCELLENT</h1><hr />
-        <h1 class="skill_section_heading">GOOD</h1><hr />
-        <h1 class="skill_section_heading">SOME</h1><hr />
-        <div class="skills">HTML</div>
-        <div class="skills">CSS</div>
-        <div class="skills">JS<br />JQUERY</div>
-        <div class="skills">PYTHON</div>
-      </div>
-
-      <div class="project_section">
-        <h1 class="project_heading">MY PROJECTS</h1>
-        <div class="projects">
-          <img src="dragon_jogo.jpg" alt="Dragon game preview" class="frontend_project" id="dino_game" />
-          <h4>DRAGON GAME</h4>
-
-          <img src="rock_paper_game-logo.jpg" alt="Rock paper game preview" class="frontend_project" id="rock_paper_game" />
-          <h4>STONE PAPER SCISSORS</h4>
-
-          <img src="tic_tak_toe-logo.jpg" alt="Tic Tac Toe preview" class="frontend_project" id="tic_tak_toe_game" />
-          <h4>TIC TAC TOE GAME</h4>
-
-          <img src="amasonClone-logo.jpg" alt="Amazon Clone preview" class="frontend_project" id="amazon_clone" />
-          <h4>AMAZON CLONE</h4>
-
-          <img src="todoList-logo.jpg" alt="Todo List preview" class="frontend_project" id="todoList" />
-          <h4>TODO LIST</h4>
-        </div>
-      </div>
-    </main>
-
-    <footer>
-      <aside class="aside">
-        I'm always open to new opportunities, collaborations...
-      </aside>
-
-      <form>
-        <h1 class="contect_heading">CONTACT ME</h1>
-        <label for="name_section">Name</label>
-        <input class="form_section" id="name_section" type="text" placeholder="NAME" />
-        <label for="email_section">Email</label>
-        <input class="form_section" id="email_section" type="email" placeholder="EMAIL" />
-        <label for="phoneNo_section">Phone</label>
-        <input class="form_section" id="phoneNo_section" type="text" placeholder="PHONE-NO" />
-        <label for="massage_section">Message</label>
-        <input class="form_section" id="massage_section" type="text" placeholder="MESSAGE" />
-        <button id="submit-button" type="submit">SUBMIT</button>
-      </form>
-
-      <div class="footer_section scrolling">
-        <p class="foot_section">Contact me on</p>
+      <div class="social-icons">
         <i class="fa-brands fa-instagram" id="ig"></i>
         <i class="fa-brands fa-linkedin-in" id="li"></i>
         <i class="fa-solid fa-envelope" id="gmail"></i>
         <i class="fa-brands fa-github" id="github"></i>
       </div>
+      <button id="more_about_me">MORE ABOUT ME</button>
+    </div>
+    <img src="my_img.jpg" alt="Khushi Singh" class="my_img" />
+  </header>
 
-      <div class="last">TAP TO SEE</div>
-    </footer>
-  </div>
-  <script src="portfolio.js"></script>
+  <section class="section" id="about">
+    <h1>ABOUT ME</h1>
+    <p>
+      I'm an engineering student with a passion for web development and computer vision. I specialize in front-end
+      development using HTML, CSS, and JavaScript. I also have experience working with OpenCV for computer vision
+      projects.
+    </p>
+  </section>
+
+  <section class="section" id="skills">
+    <h1>SKILLS</h1>
+    <div class="skills-grid">
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">Python</div>
+      <div class="skill-box">OpenCV</div>
+      <div class="skill-box">jQuery</div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h1>PROJECTS</h1>
+    <div class="projects-grid">
+      <div class="project-item" id="dino_game">
+        <img src="dragon_jogo.jpg" alt="Dragon Game">
+        <h4>Dragon Game</h4>
+      </div>
+      <div class="project-item" id="rock_paper_game">
+        <img src="rock_paper_game-logo.jpg" alt="Rock Paper Scissors">
+        <h4>Stone Paper Scissors</h4>
+      </div>
+      <div class="project-item" id="tic_tak_toe_game">
+        <img src="tic_tak_toe-logo.jpg" alt="Tic Tac Toe">
+        <h4>Tic Tac Toe</h4>
+      </div>
+      <div class="project-item" id="amazon_clone">
+        <img src="amasonClone-logo.jpg" alt="Amazon Clone">
+        <h4>Amazon Clone</h4>
+      </div>
+      <div class="project-item" id="todoList">
+        <img src="todoList-logo.jpg" alt="Todo List">
+        <h4>Todo List</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h1>CONTACT ME</h1>
+    <p class="contact-desc">
+      I'm always open to new opportunities, collaborations, and interesting conversations. Whether you're interested in
+      working together on a project, have a question, or just want to chat about technology, I'd love to hear from you!
+    </p>
+    <form>
+      <input type="text" placeholder="Your Name" id="name_section" required>
+      <input type="email" placeholder="Your Email" id="email_section" required>
+      <input type="text" placeholder="Your Phone No." id="phoneNo_section">
+      <textarea placeholder="Your Message" id="massage_section" required></textarea>
+      <button type="submit" id="submit-button">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Khushi Singh | Portfolio</p>
+  </footer>
+
+  <button class="up-button" id="scrollUp"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
 </body>
 </html>
