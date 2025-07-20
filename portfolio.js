@@ -68,3 +68,8 @@ amazon_clone.addEventListener("click", () => {
 todoList.addEventListener("click", () => {
   window.open("https://khushi-singh-star.github.io/TODO_LIST/");
 });
+
+function toggleMode() {
+  const isDark = document.body.classList.toggle("dark-mode");
+  localStorage.setItem("theme", isDark ? "dark" : "light");
+}

@@ -39,6 +39,11 @@ body {
   color: #73c7c7;
 }
 
+.dark-mode {
+  background: #151414;
+  color: white;
+}
+
 header {
   min-height: 90vh;
   display: flex;
