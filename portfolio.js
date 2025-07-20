@@ -3,7 +3,7 @@ const ig = document.querySelector("#ig");
 const ln = document.querySelector("#li");
 const gmail = document.querySelector("#gmail");
 const github = document.querySelector("#github");
-
+const mode=document.querySelector("#mode_sec")
 const dino_game = document.querySelector("#dino_game");
 const rock_paper_game = document.querySelector("#rock_paper_game");
 const tic_tak_toe_game = document.querySelector("#tic_tak_toe_game");
@@ -46,7 +46,7 @@ ln.addEventListener("click", () => {
   window.open("https://www.linkedin.com/in/khushi-singh-4448572a7/");
 });
 gmail.addEventListener("click", () => {
-  window.location.href = "mailto:your-email@example.com"; // <-- Add your email here
+  window.location.href = "khushisingh977374@gmail.com"; 
 });
 github.addEventListener("click", () => {
   window.open("https://github.com/KHUSHI-SINGH-star");
