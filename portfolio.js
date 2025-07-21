@@ -10,7 +10,7 @@ const tic_tak_toe_game = document.querySelector("#tic_tak_toe_game");
 const amazon_clone = document.querySelector("#amazon_clone");
 const todoList = document.querySelector("#todoList");
 const hamburger = document.getElementById('hamburger');
-const nav_hover = document.querySelector(".nav_hover");
+const nav_hover = document.querySelector(".menu");
 
 scrollUpBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
