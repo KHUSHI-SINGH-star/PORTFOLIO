@@ -39,13 +39,31 @@ body {
   cursor: pointer;
 }
 
+.menu {
+      display: flex;
+      gap: 20px;
+    }
+
+
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
   }
-  .nav_hover{
-   display: none;
-  }
+
+  .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #444;
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .menu.show {
+        display: flex;
+      }
 }
 
 
