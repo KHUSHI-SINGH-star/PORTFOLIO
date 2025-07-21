@@ -9,6 +9,7 @@ const rock_paper_game = document.querySelector("#rock_paper_game");
 const tic_tak_toe_game = document.querySelector("#tic_tak_toe_game");
 const amazon_clone = document.querySelector("#amazon_clone");
 const todoList = document.querySelector("#todoList");
+const hamburger = document.getElementById('hamburger');
 
 scrollUpBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -73,3 +74,7 @@ function toggleMode() {
   const isDark = document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", isDark ? "dark" : "light");
 }
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
