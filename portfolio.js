@@ -76,6 +76,9 @@ function toggleMode() {
   localStorage.setItem("theme", isDark ? "dark" : "light");
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+   console.log("hamburger =", hamburger);
+    console.log("navLinks =", navLinks);
 hamburger.addEventListener('click', () => {
-  nav_hover.classList.toggle('show');
+  navLinks.classList.toggle('show');
 });
