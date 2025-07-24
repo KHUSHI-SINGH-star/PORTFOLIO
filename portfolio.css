@@ -7,7 +7,7 @@
 
 body {
   background: linear-gradient(120deg, #f7cfd8, #a6f1e0);
-  color: #333;
+  color:#1b1919;
   overflow-x: hidden;
   animation: fadeIn 5s forwards;
 }
@@ -56,7 +56,7 @@ body {
         position: absolute;
         top: 60px;
         right: 20px;
-        background-color: #444;
+        background-color: #fdf5f5;
         padding: 10px;
         border-radius: 8px;
       }
@@ -74,8 +74,23 @@ body {
 }
 
 .dark-mode {
-  background: #151414;
+  background: #333;
   color: white;
+}
+
+.dark-mode .nav_hover{
+    color: #444;
+}
+
+.dark-mode .header-content h3 {
+    color: white;
+}
+
+.dark-mode #about p{
+    color: white;
+}
+.dark-mode .contact-desc{
+    color: white;
 }
 
 header {
